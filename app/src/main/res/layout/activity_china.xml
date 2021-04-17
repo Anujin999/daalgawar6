@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".china">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="China"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:src="@drawable/china1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="President:       Xi Jinping"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Population:     1.398 billion (2019) "
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Capital city:     Beijing"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Brief description:"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:text="The People's Republic of China, simply known as China (Chinese:中国, pinyin: zhōng guó)is located in East Asia. It is the world's most populous country, with a population of around 1.404 billion. It is a unified multi-ethnic country with the Han nationality as the main nation. China is one of the four earliest civilizations nations in the world with Yellow River and Yangtze River as its base and cradles. Currently, China is governed by the Communist Party of China (founded in 1921), it has 22 provinces, five autonomous regions, four direct-controlled municipalities (Beijing, Tianjin, Shanghai and Chongqing) and two special administrative regions of Hong Kong and Macau. Since the economic reform took place in 1978, China has emerged on the international stage as a fast-growing power house in Southeast Asia."
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

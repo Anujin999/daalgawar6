@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".usa">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="United States of America"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:src="@drawable/usa1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="President:     Joe Biden"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Population:   328.2 million (2019) "
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Capital city:  Washington, D.C."
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Brief description:"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="The United States of America is the world's third largest country in size and nearly the third largest in terms of population. Located in North America, the country is bordered on the west by the Pacific Ocean and to the east by the Atlantic Ocean. Along the northern border is Canada and the southern border is Mexico. There are 50 states and the District of Columbia.
+
+More than twice the size of the European Union, the United States has high mountains in the West and a vast central plain. The lowest point in the country is in Death Valley which is at -282 feet (-86 meters) and the highest peak is Denali (Mt. McKinley) at 20,320 feet (6,198 meters)."
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

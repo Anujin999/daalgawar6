@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".korea">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="South Korea"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:src="@drawable/korea1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="President:     Moon Jae In"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Population:   51.71 million (2019) "
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Capital city:  Seoul"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Brief description:"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="South Korea is in eastern Asia and occupies the southern half of the Korean Peninsula and many islands. It borders both the Sea of Japan (also known as the East Sea) and the Yellow Sea. Its only land border is with North Korea along the 238 Km Korean Demilitarised Zone, a 4,000m strip of heavily guarded land separating the two countries.
+
+The majority of the country is hilly and mountainous and much of the uplands of the Korean Peninsula remain forested. There are wide cultivated coastal plains in the west and south of the country. The highest point in the country is the Hallasan volcano, which is 1,950m in height and found on Jeju Island. It is considered to be an active volcano though it has not erupted for hundreds of years. South Korea has three main mountain ranges: the T'aebaek and Sobaek ranges, and the Chiri Massif."
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

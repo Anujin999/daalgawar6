@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".spain">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Spain"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/spain1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="King:                      Felipe VI"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Population:           46.94 million (2019) "
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Capital city:           Madrid"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Brief description:"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:text="Spain is a country located in southwestern Europe on the Iberian Peninsula to the south of France and Andorra and to the east of Portugal. It has coastlines on the Bay of Biscay (a part of the Atlantic Ocean) and the Mediterranean Sea. Spain's capital and largest city is Madrid, and the country is known for its long history, unique culture, strong economy, and very high living standards.The area of present-day Spain and the Iberian Peninsula has been inhabited for thousands of years and some of the oldest archeological sites in Europe are located in Spain. In the ninth century BCE, the Phoenicians, Greeks, Carthaginians, and Celts all entered the region but by the second century BCE, the Romans had settled there. Roman settlement in Spain lasted until the seventh century but many of their settlements were taken over by the Visigoths, who arrived in the fifth century. In 711, the North African Moors entered Spain and pushed the Visigoths to the north. The Moors remained in the area until 1492 despite several attempts to push them out. Present-day Spain was then unified by 1512, according to the U.S. Department of State."
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

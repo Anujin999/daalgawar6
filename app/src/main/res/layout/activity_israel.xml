@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".israel">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Israel"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorActivatedHighlight"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="200dp"
+        android:src="@drawable/israel1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="President:             Reuven Rivlin"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Population:           9.053 million (2019)"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Capital city:          Jerusalem"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Brief description:"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="3dp"
+        android:paddingLeft="10dp"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="Israel is a land and a people. The history of the Jewish people, and its roots in the Land of Israel, spans some 35 centuries. In this land, its cultural, national and religious identity was formed; here, its physical presence has been maintained unbroken throughout the centuries, even after the majority was forced into exile. With the establishment of the State of Israel in 1948, Jewish independence, lost almost 2,000 years earlier, was renewed.​​​​​ About 90% of Israel’s inhabitants live in some 200 urban centers, some of which are located on ancient historical sites. About 5% are members of unique rural cooperative settlements - the kibbutz and the moshav.Israel is located in the Middle East, along the eastern coastline of the Mediterranean Sea, bordered by Lebanon, Syria, Jordan and Egypt. It lies at the junction of three continents: Europe, Asia and Africa. The social service system is based on legislation which provides for workers’ protection and a broad range of national and community services, including care of the elderly, assistance for single parents, programs for children and youth, adoption agencies, as well as prevention and treatment of alcoholism and drug abuse."
+        android:layout_height="wrap_content"/>
+</LinearLayout>
